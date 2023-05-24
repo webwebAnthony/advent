@@ -2,7 +2,7 @@
 
 This repository contains my solutions to the Advent of Code challenges implemented in Scala. Advent of Code is an annual programming event that provides daily coding challenges throughout the month of December. The challenges are designed to test and improve your programming skills.
 
-Each challenge is separated into its own package within the `src` directory. The main implementation for each challenge can be found in the corresponding Scala file. Additionally, there may be input files provided for each challenge, which are located in the `input` directory.
+Each challenge is separated into its own package within the `src` directory. The main implementation for each challenge can be found in the corresponding Scala file. Additionally, there may be input files provided for each challenge, which are located in the `resources` directory.
 
 ## Prerequisites
 
