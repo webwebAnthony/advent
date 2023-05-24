@@ -19,9 +19,7 @@ lazy val testDependencies = Seq(
 
 lazy val root = (project in file("."))
   .settings(
-    name := "newsagent",
-    resolvers += gitlabBoerseInternResolver,
-    credentials += gitlabBoerseInternCred,
+    name := "advent",
     libraryDependencies ++= Seq(
       "dev.zio" %% "zio" % "2.0.5",
       "dev.zio" %% "zio-json" % "0.3.0",
@@ -36,7 +34,6 @@ lazy val root = (project in file("."))
       "com.scalawilliam" %% "xs4s-core" % "0.9.1",
       "com.scalawilliam" %% "xs4s-zio" % "0.9.1"
     ),
-    libraryDependencies += "de.boersegroup" %% "commons" % "0.1.3" withSources(),
     libraryDependencies ++= testDependencies,
     testFrameworks += new TestFramework("zio.test.sbt.ZTestFramework")
   )
