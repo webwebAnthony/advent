@@ -21,6 +21,6 @@ To run the solutions, follow these steps:
 4. Compile the project using sbt:
    ```bash
    sbt compile
-  ```
+   ```
 5. Navigate to the desired day (i.E. /src/main/scala/advent/day_1)
 6. Run the `Main.scala`
